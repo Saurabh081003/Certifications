@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+ /* amazon logo box  */
+.navbar{
+    background-color: black;
+    height: 60px;
+    width: 1536px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.nav-logo{
+    height: 40px;
+   width: 135px;
+   display: inline-block;
+   margin-left: 10px;
+   margin-top: 10px;   
+}
+.amazon{
+   background-image: url("Amazon-logo.png");
+   height: 37px;
+   width: 115px;
+   background-size: cover;
+   
+}
+.amazon:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+/* location box */
+.D{
+    color:#cccccc;
+    font-size: 1rem;
+    padding-left: 3px;
+    margin-left: 13px;
+}
+.location{
+    color: white;
+    width: 100px;
+    display: inline-block;
+    padding-top: 11px;
+    margin-bottom: 9px;    
+}
+.I{
+    color: white;
+}
+.deliver-box{
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.deliver-box:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+/* search box */
+.nav-search{
+    width: 800px;
+    display: flex;
+    border-radius: 50%;
+    color: white;
+    margin-left: 20px;   
+}
+.all{
+    background-color: #E6E6E6;
+    height: 42px;
+    color: #0F1111;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    width: 55px;
+    text-align: center;
+    font-size: 12px;   
+    border: none;
+}
+.search-input{
+    height: 40px;
+    color: #0F1111;
+    width: 630px;
+    font-size: 14px;
+    border: none;
+    margin-left: 0.5px;   
+}
+.search-icon{
+    color: black;
+    width: 40px;
+    height: 28.6px;
+    margin-top: 0.29px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color:rgb(232, 159, 24);
+    margin-top: 3px;   
+    font-size: 20px;
+    border: none;
+}
+.icon1{
+    background-color:rgb(232, 159, 24); 
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 55px;
+    height: 42px;   
+    margin-bottom: 4px;
+    border: none;
+}
+/* language from different country */
+.language-box{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.language:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+.language-icon{
+    color: white;
+}
+.language{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* account and list */
+.list{
+    color:white;
+    background-color: black;
+    margin-left: 30px;
+    border: none;
+    font-size: 16px;  
+    font-weight: 500;
+}
+.orders{
+    color: white;
+    display: flex;
+    margin-left: 30px;
+}
+.return{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 14px;
+    width: 10px;
+}
+.list:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+.returns:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+/* cart */
+.cart-icon{    
+    background-color: white;
+    display: inline-block;
+    padding-top: 7px;
+    padding-left: 6px;  
+}
+.cart{
+    background-color: white;
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+}
+.cart:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+/* contents bar */
+.contents-bar{
+    width:1536px;
+    height: 38px;
+    background-color: #232F3E;
+    display: flex;
+    position: fixed;
+    margin-top: 60px;
+}
+.first-box{
+    color: white;
+    display: flex;
+    width: 42px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 19px;   
+}
+.first-box:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+}
+.all-icon{
+    margin-right: 4px;
+}
+.all1{
+    font-size: 16px;
+}
+.second-box{
+    color: white;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.second-box:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+}
+.sell{
+    color: white;
+    padding-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sell:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+}
+.Amazon-Pay{
+    color: white;
+    padding-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.Amazon-Pay:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+}
+.subscribe{
+    color: white;
+    padding-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.subscribe:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+}
+.Buy-Again{
+    color: white;
+    padding-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.Buy-Again:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+}
+.Gift{
+    color: white;
+    padding-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.Gift:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+}
+.Health{
+    color: white;
+    padding-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.Health:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+}
+.Basics{
+    color: white;
+    padding-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.Basics:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+}
+.Prime{
+    background-color: #232F3E;
+    color: white;
+    border: none;   
+}
+.prime{
+    padding-left: 6px;
+    padding-top: 11px;
+    margin-left: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.prime:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+}
+.shop{
+    color: white;
+    padding-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+    width: 380px;
+    padding-left: 5px;
+    padding-right: 5px;   
+}
+.shop:hover{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3%;
+}
+/* Podcast */
+.Podcast{
+    width:1536px;
+    background-color: rgb(91, 88, 88);
+    height: 800px; 
+}
+.firstrow{
+    display: flex;
+}
+.menswear{
+    background-image: url("mens.png");
+    height: 400px;
+    width: 1200px;    
+}
+.airpods{
+    background-image: url("airpod.png");
+    height: 400px;
+    width:340px;
+}
+.secondrow{
+    display: flex;
+    background-color:#98C1D9;
+    height: 600px;
+    width: 1536px;    
+}
+.firstcoloum{
+    background-color:white;
+    height: 468px;
+    width: 475px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family:'Arial, sans-serif';
+    padding-left: 30px;
+}
+.row1{
+    display: flex;
+    width:450px;
+    height:180px ;  
+    margin-top: 10px;
+}
+.row2{
+    display: flex;
+    width:450px;
+    height:180px ;
+    margin-top: 10px;   
+    background-size: cover;  
+    border-radius: 10%;
+}
+.firstbox{
+    width:210px ;
+    height: 170px;
+    border-radius: 10%;
+    background-image: url("headset.png");
+    background-size: cover;
+    margin-right: 20px;
+}
+ .secondbox{
+    width:210px ;
+    height: 170px;       
+    background-image: url("powerbank.png");
+    border-radius: 10%;
+    background-size: cover;
+}
+.thirdbox{
+    width:210px ;
+    height: 170px;       
+    background-image: url("cases.png");
+    border-radius: 10%;
+    background-size: cover;
+}
+.fourthbox{
+    width:210px ;
+    height: 170px;       
+    background-image: url("cables.png");
+    border-radius: 10%;
+    background-size: cover;
+    margin-left: 20px;
+}
+.offers{
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.second-co{
+    background-color:white;
+    height: 468px;
+    width: 475px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.watch{
+    background-image: url("watch.png");
+    height: 380px;
+    width: 380px;
+    background-size: cover;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #0F1111;
+    font-size: 30px;
+}
+.Shop{
+    font-size: 15px;
+    margin-top: 6px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.third-co{
+    width: 475px;
+    height: 468px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.first-row{
+    display: flex;
+}
+.box1{
+    width:210px ;
+    height: 170px;
+    background-image: url("air.png");
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.box2{
+    width:210px ;
+    height: 170px;
+    background-image: url("ref.png");
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.second-row{
+    display: flex;
+}
+.box3{
+    width:210px ;
+    height: 170px;
+    background-image: url("micro.png");
+    background-size: cover;
+    margin-left: 21px;
+    margin-top: 50px;
+}
+.box4{
+    width:210px ;
+    height: 170px;
+    background-image: url("machine.png");
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 50px;
+}
